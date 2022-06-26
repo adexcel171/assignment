@@ -1,0 +1,495 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+
+}
+.nav-img{
+    font-weight: bold;
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    color: rgb(109, 102, 102);
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+}   
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    color: blue;
+}
+
+.login{
+    display: inline-block;
+    justify-content: space-between; 
+    padding: 0 8px;
+    
+
+}
+.login a{
+color: black;
+
+}
+.nav-btn a{
+    list-style: none;
+    
+}
+.box-1, .box-2, .box-3{
+    transition: 0.5s ease-in-out;
+}
+.box-1:hover, .box-2:hover, .box-3:hover{
+    transform: rotate(35deg);
+}
+.header{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.header a{
+    text-align: center;
+}
+.header h1{
+    text-align: start;
+}
+.header p{
+    text-align: start;
+}
+.header-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: start ;
+    margin-top: 100px;
+}
+.container-1 h1{
+    text-align: center;
+}
+.small-container-1 p{
+color: gray;
+}
+.small-container-img{
+  box-shadow:   0 4px 8px 0 rgb(173, 69, 130), 0 6px 20px 0 rgb(228, 158, 199);
+  
+}
+
+.btn{
+    text-align: center;
+    border: none;
+}
+.small-container-2 {
+    text-align: start;
+}
+.small-container-2{
+    color: gray;
+}
+.col-3-header p{
+    color: gray;
+}
+.small-container-1{
+    margin-top: 100px;
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    align-items: center;
+}
+.small-container p{
+    text-align: start;
+
+}
+.container{
+
+    text-align: center;
+}
+.container h1
+ {
+    color:black;
+}
+.container p{
+    color: black;
+}
+
+
+.col-3-header{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5%;
+}
+.dark{
+    background-color: black;
+}
+.container-3
+{
+    margin-top: 50px;
+display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+margin-bottom: 100px;
+flex-basis: 50%;
+    
+}
+.dark{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.col-3-header{
+    margin-top: 50px;
+}
+.container-3 {
+    
+    display: flex;
+
+
+}
+
+    
+    
+.col-4-text{
+    text-align: center;
+    justify-content: centers;
+}
+
+
+
+
+
+
+    
+
+.card-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: centero;
+}
+
+    /* text-align: center;
+     */
+
+
+
+.card-top-1{
+
+    background-color: darkgrey;
+    margin: 0 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+.card-top-2{
+
+    background-color: pink;
+    margin: 0 8px;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.card-top-1 a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow:  0 4px 8px 0 rgb(100, 85, 94), 0 6px 20px 0 rgb(228, 158, 158);
+
+    border-radius: 5px;
+    text-align: center;
+}
+.card-top-2 a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    box-shadow:  0 4px 8px 0 rgb(100, 85, 94), 0 6px 20px 0 rgb(228, 158, 158);
+    border-radius: 5px;
+
+
+
+}
+.card-top-3 a{
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color:black;
+    box-shadow:  0 4px 8px 0 rgb(100, 85, 94), 0 6px 20px 0 rgb(228, 158, 158);
+
+}
+.card-top-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    margin: 0 8px;
+    border-radius: 5px;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card-box{
+    background-color: rgb(232, 243, 239);
+}
+.card-body{
+    text-align: center;
+    background-color: white;
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.card-text{
+    font-size: 14px;
+    text-align: center;
+}
+.col-6 {
+display: inline;
+text-align: center;
+margin-top: 30px;
+padding: 0 5px;
+margin-left: ;
+
+
+}
+
+.col-6-btn{
+    align-items: center;
+    text-align: center;
+}
+.last-sec{
+    background-color: pink;
+    
+}
+.bs-btn-bg{
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: space-around ;
+    background-color: rgb(48, 45, 45);
+    color: white;
+    
+
+}
+.product{
+    font-size: 14px;
+    margin-top: 5%;
+}
+.footer-container h1{
+    font-size: 14px;
+    margin-top: 10%;
+}
+.logo-footer{
+    text-align: start;
+    margin-top: 5%;
+    font-size: 14px;
+    padding: 5px 6px;
+
+}
+.logo-footer a{
+    text-decoration: none;
+    padding: 5px 6px;
+}
+#menu-icon{
+    display: none;
+}
+/* 
+media query-------------------------------------------------------------------------------------- */
+@media (max-width:799px) {
+nav{ 
+    display: block;
+    background-color: gainsboro;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    left: 0;
+    top: 50px;
+    max-height: 200px;
+}
+#menu-icon{
+    display: block;
+    color: black;
+    margin-left: 90%;
+    cursor: pointer;
+}
+nav ul li{
+display: block;
+
+    }
+ .nav-links-log{
+    display: block;
+    text-align: center;
+ }
+ .header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+
+ .login{
+    display: block;
+    justify-content: center;
+
+ }
+ .header-img{
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 6px;
+
+ }
+ .box-1, .box-2, .box-3{
+    padding-top: 12px;
+ }
+ .container-1{
+    text-align: center;
+ }
+ .small-container-1{
+    text-align: center;
+    display: block;
+ }
+ .small-container-img{
+    display: block;
+    text-align: center;
+    box-shadow: none;
+ }
+
+ .small-container-1{
+    display: block;
+ }
+ .small-container-2{
+    display: block;
+    text-align: center;
+ }
+ .small-container-img{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .col-3-header{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+ }
+ .container-3{
+    
+    text-align: center;
+    
+    justify-content: center;
+ }
+ .box-4, .box-5, .box-6, .box-7, .box-9{
+    padding-top: 10px;
+
+   
+    }
+    .col-4-text{
+        text-align: center;
+    }
+
+    .card-box{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        background-color:white;
+    }
+    .card-box{
+        display: block;
+        text-align: center;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .card-body a{
+        text-align: center;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .card{
+        margin-bottom: 16px;
+    }
+    .col-6{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 12px;
+
+    }
+    .col-6 a{
+        text-align: center;
+    }
+    .footer-container{
+        
+        font-size: 12px;
+        text-align: start;
+        display:flex;
+        justify-content:space-between;
+    }
+    .product{
+        padding: 0 12px;
+        font-size:12px ;
+    }
+    .logo-footer{
+        font-size: 12px;
+        display: block;
+        text-align: start;
+    }
+}
